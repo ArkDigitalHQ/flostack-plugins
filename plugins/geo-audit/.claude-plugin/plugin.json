@@ -1,5 +1,5 @@
 {
-  "name": "flostack-geo",
+  "name": "geo-audit",
   "displayName": "FloStack GEO",
   "version": "0.1.0",
   "description": "Generative Engine Optimization toolkit — audit and optimize web content so it gets surfaced and cited by AI answer engines (ChatGPT, Perplexity, Claude, Google AI Overviews). Covers entity clarity, JSON-LD structured data, answer-first content structure, and citability signals.",

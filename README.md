@@ -14,14 +14,14 @@ Add the marketplace, then install any plugin:
 
 ```
 /plugin marketplace add ArkDigitalHQ/flostack-plugins
-/plugin install flostack-geo@flostack
+/plugin install geo-audit@flostack
 ```
 
 That's it. The plugin's skills and slash commands are available immediately.
 
 ## Plugins
 
-### `flostack-geo` — Generative Engine Optimization toolkit
+### `geo-audit` — Generative Engine Optimization toolkit
 
 Optimize web content so it gets **surfaced and cited by AI answer engines**
 (ChatGPT, Perplexity, Claude, Gemini, Google AI Overviews) — not just ranked in

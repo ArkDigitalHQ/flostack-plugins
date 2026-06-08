@@ -9,10 +9,10 @@
   },
   "plugins": [
     {
-      "name": "flostack-geo",
+      "name": "geo-audit",
       "description": "Generative Engine Optimization toolkit — audit and optimize web content to get cited by AI answer engines (ChatGPT, Perplexity, Claude, Google AI Overviews). Built by FloStack.",
       "category": "productivity",
-      "source": "./plugins/flostack-geo",
+      "source": "./plugins/geo-audit",
       "homepage": "https://flostack.ca/plugins"
     },
     {
