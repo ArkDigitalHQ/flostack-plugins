@@ -17,7 +17,7 @@
     },
     {
       "name": "web-app-sdk",
-      "description": "Developer toolkit for building full-stack TypeScript web apps on a shared monorepo stack — Turborepo + pnpm, Next.js App Router, Hono + tRPC + Zod, an MCP server, AI agents, and Supabase (Postgres + RLS). Ships architecture-aware agents, doc-sync and scaffolding skills, pre-push/doc-guard hooks, and a CLAUDE.md template. Built by FloStack.",
+      "description": "Developer toolkit for full-stack TypeScript web apps on a shared monorepo stack — Turborepo + pnpm, Next.js App Router, Hono + tRPC + Zod, an MCP server, AI agents, and Supabase (Postgres + RLS). Scaffolds new projects with /init-app, ships architecture-aware agents, doc-sync and scaffolding skills, pre-push/doc-guard hooks, and a CLAUDE.md template. Built by FloStack.",
       "category": "productivity",
       "source": "./plugins/web-app-sdk",
       "homepage": "https://flostack.ca/plugins"

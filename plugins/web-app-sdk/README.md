@@ -39,6 +39,11 @@ e.g. `/web-app-sdk:verify`.
 
 **Scaffolding & knowledge**
 
+- **`/init-app`** — scaffold a brand-new project on this stack. Asks at run time
+  which apps and packages to include, then generates a **runnable vertical slice**
+  (an example domain threaded through a service + test, a tRPC router, an MCP tool,
+  a Next.js page, and a Supabase migration) plus all monorepo config and a
+  filled-in `CLAUDE.md`. `pnpm install && pnpm typecheck` passes out of the box.
 - **`architecture-conventions`** — auto-loads the mandatory engineering rules
   (service-layer-first, pre-flight checklists, Next.js rules, branch-per-task)
   whenever you work in a repo with this shape. Works even before a `CLAUDE.md`

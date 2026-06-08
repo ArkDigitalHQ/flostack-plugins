@@ -1,8 +1,8 @@
 {
   "name": "web-app-sdk",
   "displayName": "FloStack Web App SDK",
-  "version": "0.2.0",
-  "description": "Agents, skills, hooks, and architecture rules for building full-stack TypeScript web apps on a shared monorepo stack: Turborepo + pnpm, Next.js App Router, Hono + tRPC + Zod, an MCP server, AI agents, and Supabase (Postgres + RLS). Enforces a service-layer-first workflow and keeps docs in sync.",
+  "version": "0.3.1",
+  "description": "Agents, skills, hooks, and architecture rules for building full-stack TypeScript web apps on a shared monorepo stack: Turborepo + pnpm, Next.js App Router, Hono + tRPC + Zod, an MCP server, AI agents, and Supabase (Postgres + RLS). Scaffolds new projects with /init-app, enforces a service-layer-first workflow, and keeps docs in sync.",
   "author": {
     "name": "FloStack",
     "email": "jared@arkdigital.ca"

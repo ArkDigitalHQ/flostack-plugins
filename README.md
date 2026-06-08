@@ -47,6 +47,10 @@ pnpm, Next.js App Router, Hono + tRPC + Zod, an MCP server, AI agents, and
 Supabase (Postgres + RLS)**. Encodes a service-layer-first workflow and keeps
 docs in sync as you build.
 
+- **`/init-app`** — scaffold a brand-new project on this stack: asks which apps and
+  packages to include, then generates a runnable vertical slice (service + test →
+  tRPC router → MCP tool → Next.js page → Supabase migration) plus all config and a
+  filled-in `CLAUDE.md`.
 - **`architecture-conventions` skill** — auto-loads the mandatory rules
   (service-layer-first, pre-flight checklists, Next.js patterns, branch-per-task)
   whenever you work in a repo with this shape.
