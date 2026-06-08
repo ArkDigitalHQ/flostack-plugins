@@ -40,6 +40,30 @@ classic search.
 /geo-schema ./about.html
 ```
 
+### `web-app-sdk` — Full-stack web app developer toolkit
+
+For teams building TypeScript web apps on a shared monorepo stack: **Turborepo +
+pnpm, Next.js App Router, Hono + tRPC + Zod, an MCP server, AI agents, and
+Supabase (Postgres + RLS)**. Encodes a service-layer-first workflow and keeps
+docs in sync as you build.
+
+- **`architecture-conventions` skill** — auto-loads the mandatory rules
+  (service-layer-first, pre-flight checklists, Next.js patterns, branch-per-task)
+  whenever you work in a repo with this shape.
+- **7 subagents** — `backend-architect`, `mcp-expert`, `code-reviewer`,
+  `debugger`, `api-documenter`, `frontend-developer`, `ui-ux-designer`.
+- **Workflow skills** — `/verify`, `/new-endpoint`, `/new-mcp-tool`,
+  `/db-migration`, `/doc-agent`, `/update-docs`, `/check-docs`, `/add-adr`,
+  `/agent-delegate`, `/agent-scope-check`, plus `/add-agent`, `/add-role`,
+  `/add-notification`.
+- **Hooks** — doc-sync reminders on edit, and a pre-push gate that runs
+  tests/typecheck/lint/format before any `git push`.
+- **`CLAUDE.md` template** — drop-in conventions file for new projects.
+
+```
+/plugin install web-app-sdk@flostack
+```
+
 ## Need a custom plugin or integration?
 
 These free plugins are a taste of what we do. FloStack builds **custom Claude
