@@ -1,0 +1,19 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "flostack",
+  "description": "Free Claude Code plugins by FloStack — practical AI workflows for marketing, SEO/GEO, and ops. Custom builds at flostack.ca.",
+  "owner": {
+    "name": "FloStack",
+    "email": "jared@arkdigital.ca",
+    "url": "https://flostack.ca"
+  },
+  "plugins": [
+    {
+      "name": "flostack-geo",
+      "description": "Generative Engine Optimization toolkit — audit and optimize web content to get cited by AI answer engines (ChatGPT, Perplexity, Claude, Google AI Overviews). Built by FloStack.",
+      "category": "productivity",
+      "source": "./plugins/flostack-geo",
+      "homepage": "https://flostack.ca/plugins"
+    }
+  ]
+}

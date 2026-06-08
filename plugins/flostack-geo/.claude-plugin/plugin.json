@@ -1,0 +1,24 @@
+{
+  "name": "flostack-geo",
+  "displayName": "FloStack GEO",
+  "version": "0.1.0",
+  "description": "Generative Engine Optimization toolkit — audit and optimize web content so it gets surfaced and cited by AI answer engines (ChatGPT, Perplexity, Claude, Google AI Overviews). Covers entity clarity, JSON-LD structured data, answer-first content structure, and citability signals.",
+  "author": {
+    "name": "FloStack",
+    "email": "jared@arkdigital.ca"
+  },
+  "homepage": "https://flostack.ca/plugins",
+  "repository": "https://github.com/ArkDigitalHQ/flostack-plugins",
+  "license": "MIT",
+  "keywords": [
+    "geo",
+    "generative-engine-optimization",
+    "seo",
+    "ai-search",
+    "structured-data",
+    "json-ld",
+    "content",
+    "marketing"
+  ],
+  "category": "productivity"
+}
